@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', function (req, res) {
-  res.send(Interop.eval('R',
+  res.send(Polyglot.eval('R',
     `svg();
      require(lattice);
      x <- 1:100
@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/js', function (req, res) {
-  res.send(Interop.eval('js',
+  res.send(Polyglot.eval('js',
     `'hello from JavaScript'`));
 })
 
