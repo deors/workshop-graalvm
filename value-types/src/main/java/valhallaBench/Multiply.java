@@ -25,7 +25,6 @@ public class Multiply {
 
   private Complex[][] A;
   private Complex[][] B;
-  
 
   @Setup
   public void prepare() {
@@ -34,7 +33,6 @@ public class Multiply {
     populate(A);
     populate(B);
   }
-
 
   @Benchmark
   public Complex[][] multiply() {
@@ -45,8 +43,8 @@ public class Multiply {
         Complex s = new Complex(0, 0);
         for (int k = 0; k < size; k++) {
           s = s.add(A[i][k].mul(B[k][j]));
-	      }
-	      R[i][j] = s;
+	    }
+	    R[i][j] = s;
       }
     }
     return R;
