@@ -29,5 +29,4 @@ public class TopTen {
             throw new RuntimeException(e);
         }
     }
-
 }
