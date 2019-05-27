@@ -2,6 +2,7 @@
 .project
 .factorypath
 .settings
+.vscode
 target
 node_modules
 *.class
