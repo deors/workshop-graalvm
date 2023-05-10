@@ -1,4 +1,4 @@
-FROM alpine:3.10.2
-COPY graalvm.reflection.reflectionpropsexample /opt/docker/exec
-RUN chmod +x /opt/docker/exec
-CMD ["/opt/docker/exec"]
+FROM debian:10.13-slim
+ADD graalvm.reflection.reflectionpropsexample /opt/appexec
+RUN chmod +x /opt/appexec
+CMD ["/opt/appexec"]
