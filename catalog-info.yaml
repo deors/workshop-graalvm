@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: workshop-graalvm
+  description: Examples of use cases for GraalVM
+  tags:
+    - GraalVM
+    - Java
+    - JVM
+    - Cloud-native
+  links:
+    - url: https://github.com/deors/workshop-graalvm
+      title: Workshop GraalVM
+      icon: github
+  annotations:
+    backstage.io/techdocs-ref: dir:.  
+spec:
+  lifecycle: production
+  type: archetype
+  owner: Jorge Hidalgo
+  system: public-websites
