@@ -4,10 +4,10 @@ metadata:
   name: workshop-graalvm
   description: Examples of use cases for GraalVM
   tags:
-    - GraalVM
-    - Java
-    - JVM
-    - Cloud-native
+    - graalvm
+    - java
+    - jvm
+    - cloud-native
   links:
     - url: https://github.com/deors/workshop-graalvm
       title: Workshop GraalVM
