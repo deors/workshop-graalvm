@@ -1,0 +1,9 @@
+site_name: 'workshop-graalvm-docs'
+theme:
+  name: 'mkdocs'
+
+nav:
+  - Home: README.md
+
+docs_dir: 'docs'
+site_dir: 'site'
